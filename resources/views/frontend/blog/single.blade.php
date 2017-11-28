@@ -7,7 +7,7 @@
 
 @section('content')
     <article>
-        <h3>Post Title</h3>
+        <h1>Post Title</h1>
         <span class="subtitle">Post Author | Date</span>
         <p>Post Body</p>
     </article>

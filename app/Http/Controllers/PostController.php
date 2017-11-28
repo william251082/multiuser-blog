@@ -10,7 +10,7 @@ class PostController extends Controller
         return view('frontend.blog.index');
     }
     
-    public function getSinglePostIndex($post_id, $send = 'frontend')
+    public function getSinglePost($post_id, $send = 'frontend')
     {
         // Fetch the post
         return view($end . '.blog.single');
