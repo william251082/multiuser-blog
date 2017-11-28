@@ -1,9 +1,9 @@
 <header>
     <nav>
         <ul>
-            <li> <a href="#">Blog</a></li>
-            <li> <a href="#">About</a></li>
-            <li> <a href="#">Contact</a></li>
+            <li> <a href="{{ route('blog.index') }}">Blog</a></li>
+            <li> <a href="{{ route('about') }}">About Me</a></li>
+            <li> <a href="{{ route('blog.index') }}">Contact</a></li>
         </ul>
     </nav>   
     

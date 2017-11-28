@@ -6,7 +6,7 @@
 
 
 @section('styles')
-    <link rel="stylsheet" href={{ URL::secure('src/css/main.css') }}>
+    <link rel="stylsheet" href="{{ URL::to('src/css/form.css') }}">
 @endsection
 
 
