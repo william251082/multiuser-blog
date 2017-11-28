@@ -29,4 +29,9 @@ Route::get('/blog/{post_id}', [
     /* Other Routes */
 Route::get('/about', function() {
     return view('frontend.other.about');
-    });
+    })->name('about');
+    
+Route::get('/contact', [
+    'uses' => 'ContactMessageController@getContactIndex',
+    'as' => 'contact'
+    ]);
