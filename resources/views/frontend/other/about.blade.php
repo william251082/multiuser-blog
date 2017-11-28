@@ -6,7 +6,7 @@
 
 
 @section('content')
-    <h1>My nam is ...</h1>
+    <h1>My name is ...</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
     Doloremque eos itaque atque assumenda ducimus eaque totam, 
     aliquam tempore perferendis vero quos doloribus necessitatibus, 
